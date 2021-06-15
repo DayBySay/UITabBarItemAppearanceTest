@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192BDEC7267905C300F31A6C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BDEC6267905C300F31A6C /* FirstViewController.swift */; };
 		19FFFCB32678E38C001BF7FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFFCB22678E38C001BF7FF /* AppDelegate.swift */; };
 		19FFFCB52678E38C001BF7FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFFCB42678E38C001BF7FF /* SceneDelegate.swift */; };
 		19FFFCB72678E38C001BF7FF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFFCB62678E38C001BF7FF /* TabBarController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192BDEC6267905C300F31A6C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		19FFFCAF2678E38C001BF7FF /* UITabBarItemAppearanceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarItemAppearanceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FFFCB22678E38C001BF7FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FFFCB42678E38C001BF7FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				19FFFCB22678E38C001BF7FF /* AppDelegate.swift */,
 				19FFFCB42678E38C001BF7FF /* SceneDelegate.swift */,
 				19FFFCB62678E38C001BF7FF /* TabBarController.swift */,
+				192BDEC6267905C300F31A6C /* FirstViewController.swift */,
 				19FFFCB82678E38C001BF7FF /* Main.storyboard */,
 				19FFFCBB2678E38E001BF7FF /* Assets.xcassets */,
 				19FFFCBD2678E38E001BF7FF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				19FFFCB72678E38C001BF7FF /* TabBarController.swift in Sources */,
 				19FFFCB32678E38C001BF7FF /* AppDelegate.swift in Sources */,
 				19FFFCB52678E38C001BF7FF /* SceneDelegate.swift in Sources */,
+				192BDEC7267905C300F31A6C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

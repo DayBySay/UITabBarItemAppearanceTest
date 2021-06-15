@@ -24,17 +24,27 @@
             </objects>
             <point key="canvasLocation" x="-103" y="120"/>
         </scene>
-        <!--HOGEHOGE-->
+        <!--HOGEHOGEHOGEHOGE-->
         <scene sceneID="WOQ-PU-a75">
             <objects>
-                <viewController id="vNa-fz-3JP" sceneMemberID="viewController">
+                <viewController id="vNa-fz-3JP" customClass="FirstViewController" customModule="UITabBarItemAppearanceTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kSS-Ne-vgF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDw-e2-040">
+                                <rect key="frame" x="48" y="164" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="update appearance"/>
+                                <connections>
+                                    <action selector="tapUpdateAppearanceButton:" destination="vNa-fz-3JP" eventType="touchUpInside" id="Diq-Pu-40a"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rrb-PA-VuJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="HOGEHOGE" id="rIz-sW-iM1"/>
+                    <tabBarItem key="tabBarItem" title="HOGEHOGEHOGEHOGE" id="rIz-sW-iM1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Amq-69-6Ur" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
